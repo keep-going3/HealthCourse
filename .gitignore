@@ -1,0 +1,37 @@
+# Node
+fitness-app/node_modules/
+fitness-app/dist/
+
+# Python
+fitness-agent/venv/
+fitness-agent/__pycache__/
+fitness-agent/**/__pycache__/
+fitness-agent/.pytest_cache/
+fitness-agent/*.egg-info/
+
+# Java
+fitness-server/target/
+fitness-server/*.jar
+fitness-server/logs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.local.*
+fitness-server/src/main/resources/application-local.yml
+
+# ChromaDB
+fitness-agent/chroma_db/
+
+# Logs
+*.log
